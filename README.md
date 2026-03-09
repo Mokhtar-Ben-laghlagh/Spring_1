@@ -83,3 +83,4 @@ Class.forName("dao.DaoImpl")        → crée une instance de DaoImpl
 Class.forName("metier.MetierImpl")  → crée une instance de MetierImpl
 setDao(dao)                         → injecte dao dans metier
 metier.calcul()                     → dao.getValue() × 2 = 200.0
+                                    → dao.getValue() × 5 = 10025.0
